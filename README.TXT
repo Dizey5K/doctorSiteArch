@@ -1,0 +1,1 @@
+Color pallete: https://mdigi.tools/color-shades/#eef5ee

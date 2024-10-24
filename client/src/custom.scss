@@ -1,0 +1,88 @@
+//customizing
+@import "~bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+.simple-title{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.playful-regular{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+$theme-colors: (
+  "first": #eff6ef,
+  "second": #8fbd8f,
+  "third": #559055,
+  "fourth": #2f502f
+);
+.masthead{
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2)
+}
+.hero-button{
+    opacity: 100%;
+}
+
+.hero-button:hover{
+    background: black;
+    opacity: 70%;
+    transition: all .5s ease-out;
+}
+
+.vertical-regular{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+}
+  
+
+.icon-vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform:rotate(270deg);
+    transform: rotate(270deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+}
+ 
+.hover-service{
+    transition: all .3s ease;
+}
+
+.hover-service:hover{
+    color: black !important;
+    transition: all .3s ease;
+}
+
+#email{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+  
+
+//import
+@import '~bootstrap/scss/bootstrap';
